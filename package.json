@@ -8,8 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "install:force": "npm install --force",
-    "build:force": "npm install --force && vite build"
+    "postinstall": "npm install --force"
   },
   "dependencies": {
     "@apollo/client": "^3.12.4",
